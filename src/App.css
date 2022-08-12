@@ -12,16 +12,18 @@
 
 header {
   background-color: #648fe5;
+  width:100%;
   padding: 10px;
   text-align: center;
 }
 
 .beer-list {
   display: flex;
-  flex-direction: row;
-  margin: 100px;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 100px;
   background-color: #e6e8ee;
-  width: 50%;
+  width: 85%;
   padding: 20px;
   border-radius: 15px;
 }
@@ -39,7 +41,7 @@ header {
 }
 
 .attenuation{
-  margin-left:300%;
+  
   color:gray
 }
 
@@ -49,4 +51,22 @@ header {
 
 .first-brewed{
   margin-left:180px;;
+}
+
+form{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  margin:45px;
+}
+
+button{
+  background-color: #648fe5;
+  padding:20px; 
+  border-radius: 15px;
+  border:none;
+  margin:20px;
+  color:white;
+  font-weight: bold;
 }
