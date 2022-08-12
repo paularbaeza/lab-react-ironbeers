@@ -8,7 +8,7 @@ function Home() {
     <div id="home-page">
       <h1>IronBeers</h1>
       <div>
-        <div class= "each-home-link">
+        <div className= "each-home-link">
           <Link to="/beers">
             <img src={beersImg} alt="beers" width="1000" />
           </Link>
@@ -20,7 +20,7 @@ function Home() {
             labore fugiat facilis, provident, tempore rerum?
           </p>
         </div>
-        <div class= "each-home-link">
+        <div className= "each-home-link">
           <Link to="/random-beer">
             <img src={beersImg} alt={randomBeerImg} width="1000" />
           </Link>
@@ -32,7 +32,7 @@ function Home() {
             labore fugiat facilis, provident, tempore rerum?
           </p>
         </div>
-        <div class= "each-home-link">
+        <div className= "each-home-link">
           <Link to="/new-beer">
             <img src={newBeerImg} alt="beers" width="1000" />
           </Link>
