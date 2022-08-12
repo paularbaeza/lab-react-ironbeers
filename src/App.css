@@ -5,6 +5,22 @@
   align-items: center;
 }
 
+#home-page h1{
+  font-size: 50px;
+  background-color: #648fe5;
+  width:100%;
+  text-align: center;
+  color:white;
+  padding:15px;
+  text-shadow: 0px 0px 20px white ;
+}
+
+#home-page img{
+border-radius: 25px;
+box-shadow: 0px 0px 20px gray ;
+
+}
+
 .each-home-link {
   width: 1000px;
   margin: 50px;
@@ -69,4 +85,19 @@ button{
   margin:20px;
   color:white;
   font-weight: bold;
+}
+
+#search{
+width: 100%;
+text-align: center;
+margin:10px 0;
+background-color: #e6e8ee;
+padding: 5px;
+}
+
+#search input{
+  border-radius: 5px;
+  margin:10px;
+  width: 40%;
+  height: 20px;
 }
